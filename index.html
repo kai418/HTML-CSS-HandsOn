@@ -7,23 +7,89 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+    <header>
+      <img class="header-logo" src="img/logo.png" alt="LOGO">
+      <div class="header-menu">
+        <a class="link" href="#profile">Profile</a>
+        <a class="link" href="#article">Articles</a>
+      </div>
+    </header>
 
     <main class="main-content">
       <!-- メインビジュアル -->
+      <img class="main-visual" src="img/main_visual.jpg" alt="main_visual">
+
+
 
       <!-- プロフィール セクション -->
+      <section id="profile" class="section">
+        <h2 class="title">Profile</h2>
+        <div class="TARO">
+          <img class="profile-image" src="img/profile.png" alt="profile">
+          <div class="TARO-profile">
+            <h3 class="proflie-name">TARO RARETECH</h3>
+            <div>
+              <p>出身: 東京都</p>
+              <p>趣味: アプリ開発, 散歩(公園を中心に都内を歩きまわっています)</p>
+              <p>技術: Python, Django, JavaScript, React, AWS, GCP</p>
+              <p>主な仕事: マネジメント, バックエンド開発</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <!-- 記事 セクション -->
-
+      <section id="articles" class="section">
+        <h2 class="title">Articles</h2>
+        <div class="articles">
+          <div class="separate-article">
+            <img class="article-image" src="img/article.jpg" alt="article1">
+            <h3 class="article-title">記事のタイトル</h3>
+            <article>
+              <p>こんな記事を書きました。こんな記事を書きました。
+                こんな記事を書きました。こんな記事を書きました。</p>
+            </article>
+          </div>
+          <div class="separate-article">
+            <img class="article-image" src="img/article.jpg" alt="article2">
+            <h3 class="article-title">記事のタイトル</h3>
+            <article>
+              <p>こんな記事を書きました。こんな記事を書きました。
+                こんな記事を書きました。こんな記事を書きました。</p>
+            </article>
+          </div>
+          <div class="separate-article">
+            <img class="article-image" src="img/article.jpg" alt="article3">
+            <h3 class="article-title">記事のタイトル</h3>
+            <article>
+              <p>こんな記事を書きました。こんな記事を書きました。
+                こんな記事を書きました。こんな記事を書きました。</p>
+            </article>
+          </div>
+          <div class="separate-article">
+            <img class="article-image" src="img/article.jpg" alt="article4">
+            <h3 class="article-title">記事のタイトル</h3>
+            <article>
+              <p>こんな記事を書きました。こんな記事を書きました。
+                こんな記事を書きました。こんな記事を書きました。</p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- フッター -->
+     <footer>
+      <p>&copy; 2024 Profile</p>
+     </footer>
 
   </div>
 </body>
